@@ -411,7 +411,7 @@ async function initSettings() {
     
     // Load default system prompt if empty
     if (!config.systemPrompt || !config.systemPrompt.trim()) {
-        await loadPromptPreset('default');
+        await loadPromptPreset('kiro');
     }
 
     // Initialize custom dropdowns
