@@ -6,7 +6,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { Tool } from './Tool';
 
-type HRCategory = 'payroll' | 'new-joiner' | 'leave-policy' | 'grievance';
+type HRCategory = 'payroll' | 'new-joiner' | 'leave-policy' | 'company-info' | 'company-vision' | 'innovation';
 
 interface HRKBEntry {
     id: string;
@@ -43,7 +43,9 @@ const HR_KB_CONFIG = {
         'payroll': 'Salary, payslips, deductions, tax, Form 16',
         'new-joiner': 'Onboarding, probation, documents, induction',
         'leave-policy': 'Leave types, entitlement, encashment, carry forward',
-        'grievance': 'Workplace complaints, escalation, confidentiality'
+        'company-info': 'About Certis, highlights, leadership, board, sustainability',
+        'company-vision': 'Innovation commitment, CEO message, Chairman message',
+        'innovation': 'AI, robotics, ops-tech, security technology'
     },
     searchWeights: {
         title: 3.0,
@@ -60,6 +62,37 @@ function parseParams(params: unknown): HRKBParams {
         category: content.category,
         limit: content.limit || 3
     };
+}
+
+/**
+ * Phonetic alias map for common speech-to-text mistranscriptions.
+ * Maps misheard words to the correct term used in the knowledge base.
+ */
+const PHONETIC_ALIASES: Record<string, string> = {
+    // "Certis" common mistranscriptions
+    'sortie': 'certis',
+    'sorties': 'certis',
+    'forties': 'certis',
+    'fortis': 'certis',
+    'curtis': 'certis',
+    'courtis': 'certis',
+    'sertis': 'certis',
+    'sir tis': 'certis',
+    'sur tis': 'certis',
+    'searches': 'certis',
+    'service': 'certis',
+    'circus': 'certis',
+    'certes': 'certis',
+    'cirtis': 'certis',
+    'sortis': 'certis',
+    'surtis': 'certis',
+};
+
+/**
+ * Normalize search terms by replacing known mistranscriptions with correct terms.
+ */
+function normalizeSearchTerms(terms: string[]): string[] {
+    return terms.map(term => PHONETIC_ALIASES[term] || term);
 }
 
 function calculateScore(entry: HRKBEntry, searchTerms: string[]): number {
@@ -158,7 +191,11 @@ export const HRKnowledgeBaseTool: Tool = {
 
         try {
             const kb = loadKnowledgeBase();
-            const searchTerms = parsed.query.toLowerCase().split(/\s+/);
+            const rawTerms = parsed.query.toLowerCase().split(/\s+/);
+            const searchTerms = normalizeSearchTerms(rawTerms);
+            if (rawTerms.join(' ') !== searchTerms.join(' ')) {
+                console.log(`HR KB: normalized query "${rawTerms.join(' ')}" -> "${searchTerms.join(' ')}"`);
+            }
             const results: Array<{ entry: HRKBEntry; score: number; matchedFields: string[] }> = [];
 
             for (const entry of kb.entries) {

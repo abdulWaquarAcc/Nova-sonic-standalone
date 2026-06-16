@@ -5,7 +5,9 @@
     "payroll",
     "new-joiner",
     "leave-policy",
-    "grievance"
+    "company-info",
+    "company-vision",
+    "innovation"
   ],
   "entries": [
     {
@@ -219,44 +221,114 @@
       "metadata": { "department": "HR", "topic": "Leave Policy" }
     },
     {
-      "id": "grievance-001",
-      "title": "What is the official process to raise a workplace grievance?",
-      "content": "To raise a workplace grievance, submit a formal complaint through the HR portal under 'Grievance Redressal' or email the HR team directly. Include details of the issue, relevant dates, and any supporting evidence. You can also speak to your HRBP (HR Business Partner) in person for guidance.",
-      "category": "grievance",
-      "tags": ["grievance", "complaint", "raise", "process", "workplace"],
+      "id": "company-info-001",
+      "title": "What is Certis?",
+      "content": "Certis is a leading tech security powerhouse and outsourced services partner that designs, builds, and operates multi-disciplinary smart security and integrated services. Combining digital innovation, deep operational expertise, and applied AI solutions, Certis delivers seamless, trusted solutions that empower people, protect assets, and shape Safer, Smarter, Better environments — all underpinned by comprehensive technology development and cyber-secure systems integration.",
+      "category": "company-info",
+      "tags": ["Certis", "company", "security", "tech", "AI", "about"],
       "source": "HR Buddy Knowledge Base",
-      "lastUpdated": "2026-06-15T10:00:00Z",
-      "metadata": { "department": "HR", "topic": "Grievance" }
+      "lastUpdated": "2026-06-16T10:00:00Z",
+      "metadata": { "department": "Corporate", "topic": "Company Info" }
     },
     {
-      "id": "grievance-002",
-      "title": "How long does HR typically take to resolve a grievance complaint?",
-      "content": "HR acknowledges grievance complaints within 2 working days. Simple issues are typically resolved within 7-10 working days. Complex cases involving investigation may take up to 30 working days. You will receive regular updates on the progress of your complaint.",
-      "category": "grievance",
-      "tags": ["grievance", "resolution", "timeline", "HR"],
+      "id": "company-info-002",
+      "title": "What are the key highlights of Certis?",
+      "content": "Innovation: 30+ patents filed, focused on Ops-Tech. Scale: 25,000+ employees across Singapore, Australia, and Qatar. Markets: Smart cities, airports, healthcare, and defence. Recognition: Named a Best Employer 2025 (Singapore); 60+ awards in FY25 covering innovation, HR, marketing, and security. Outlook: On a clear growth trajectory toward its FY28 revenue goal.",
+      "category": "company-info",
+      "tags": ["Certis", "highlights", "patents", "employees", "awards", "growth"],
       "source": "HR Buddy Knowledge Base",
-      "lastUpdated": "2026-06-15T10:00:00Z",
-      "metadata": { "department": "HR", "topic": "Grievance" }
+      "lastUpdated": "2026-06-16T10:00:00Z",
+      "metadata": { "department": "Corporate", "topic": "Company Info" }
     },
     {
-      "id": "grievance-003",
-      "title": "Can a grievance be raised anonymously, and will confidentiality be maintained?",
-      "content": "Yes, grievances can be raised anonymously through the ethics hotline or anonymous grievance portal. All complaints, whether anonymous or identified, are treated with strict confidentiality. Only authorized HR personnel and investigators will have access to the details. Retaliation against complainants is strictly prohibited.",
-      "category": "grievance",
-      "tags": ["anonymous", "confidential", "grievance", "ethics", "privacy"],
+      "id": "company-info-003",
+      "title": "Who are the people behind innovation at Certis?",
+      "content": "At Certis, our 25,000+ employees are the engine of innovation. Through AI literacy training, leadership development, and a strong peer support network, we build a future-ready, inclusive workforce — ensuring every breakthrough is driven by skilled, empowered people committed to delivering Safer, Smarter, Better outcomes.",
+      "category": "company-info",
+      "tags": ["Certis", "people", "innovation", "workforce", "AI", "training"],
       "source": "HR Buddy Knowledge Base",
-      "lastUpdated": "2026-06-15T10:00:00Z",
-      "metadata": { "department": "HR", "topic": "Grievance" }
+      "lastUpdated": "2026-06-16T10:00:00Z",
+      "metadata": { "department": "Corporate", "topic": "Company Info" }
     },
     {
-      "id": "grievance-004",
-      "title": "What is the escalation path if my grievance is not resolved at the first level?",
-      "content": "If your grievance is not resolved satisfactorily at the first level (HRBP), you can escalate to: Level 2 - HR Head, Level 3 - Grievance Committee (comprising senior leadership and HR), Level 4 - Ethics Committee or the company ombudsperson. Each level has a defined timeline for response and resolution.",
-      "category": "grievance",
-      "tags": ["escalation", "grievance", "levels", "committee", "resolution"],
+      "id": "company-info-004",
+      "title": "How is the community and environment commitment at Certis?",
+      "content": "Certis is committed to four key pillars: 1. We Care About Our People, 2. We Protect Our Environment, 3. We Give Back to Our Community, 4. We Support Our Customers in Their Sustainability Journey.",
+      "category": "company-info",
+      "tags": ["Certis", "community", "environment", "sustainability", "CSR"],
       "source": "HR Buddy Knowledge Base",
-      "lastUpdated": "2026-06-15T10:00:00Z",
-      "metadata": { "department": "HR", "topic": "Grievance" }
+      "lastUpdated": "2026-06-16T10:00:00Z",
+      "metadata": { "department": "Corporate", "topic": "Company Info" }
+    },
+    {
+      "id": "company-info-005",
+      "title": "Who are the Board of Directors at Certis?",
+      "content": "Allen Lew as Chairman, Ng Tian Beng as President & Group Chief Executive Officer, Khoo Boon Hui as Director, and Paul Retter as Director.",
+      "category": "company-info",
+      "tags": ["Certis", "board", "directors", "leadership", "chairman", "CEO"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-16T10:00:00Z",
+      "metadata": { "department": "Corporate", "topic": "Company Info" }
+    },
+    {
+      "id": "company-vision-001",
+      "title": "What is Certis's relentless commitment to innovation?",
+      "content": "Innovation drives how we operate, serve, and grow. Guided by our Purpose, Certis relentlessly invests in AI, orchestration, and people development to stay ahead of change. We view innovation not as an initiative, but as a mindset, powering sustainable growth and delivering Safer, Smarter, and Better outcomes.",
+      "category": "company-vision",
+      "tags": ["Certis", "vision", "innovation", "AI", "growth", "purpose"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-16T10:00:00Z",
+      "metadata": { "department": "Corporate", "topic": "Company Vision" }
+    },
+    {
+      "id": "company-vision-002",
+      "title": "What is the President & Group CEO's message?",
+      "content": "Innovation is the only way to move forward. It is how we have chosen to progress in our relentless pursuit of excellence.",
+      "category": "company-vision",
+      "tags": ["Certis", "CEO", "message", "innovation", "leadership"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-16T10:00:00Z",
+      "metadata": { "department": "Corporate", "topic": "Company Vision" }
+    },
+    {
+      "id": "company-vision-003",
+      "title": "What is the Chairman's message?",
+      "content": "Relentless innovation is not an initiative. It's our posture, and who we are.",
+      "category": "company-vision",
+      "tags": ["Certis", "chairman", "message", "innovation"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-16T10:00:00Z",
+      "metadata": { "department": "Corporate", "topic": "Company Vision" }
+    },
+    {
+      "id": "innovation-001",
+      "title": "Can you provide an example of AI for All at Certis?",
+      "content": "AI for All delivers trusted intelligence by enhancing information retrieval, unlocking enterprise knowledge, and improving business processes with AI precision.",
+      "category": "innovation",
+      "tags": ["Certis", "AI", "innovation", "intelligence", "enterprise"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-16T10:00:00Z",
+      "metadata": { "department": "Innovation", "topic": "Innovation in Motion" }
+    },
+    {
+      "id": "innovation-002",
+      "title": "What are the uses of robotics for innovation in motion at Certis?",
+      "content": "Harnessing Robotics and Ops-Tech for Smarter Security: Leveraging intelligent automation and operational technologies to enhance threat detection, accelerate response, and strengthen security resilience.",
+      "category": "innovation",
+      "tags": ["Certis", "robotics", "ops-tech", "security", "automation"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-16T10:00:00Z",
+      "metadata": { "department": "Innovation", "topic": "Innovation in Motion" }
+    },
+    {
+      "id": "innovation-003",
+      "title": "How is Certis leveraging technology to enhance security operations across major institutions in Singapore?",
+      "content": "Certis leverages AI-powered surveillance, digital access control, robotics, and integrated command platforms to strengthen security and streamline operations.",
+      "category": "innovation",
+      "tags": ["Certis", "technology", "security", "AI", "Singapore", "surveillance"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-16T10:00:00Z",
+      "metadata": { "department": "Innovation", "topic": "Innovation Impact" }
     }
   ]
 }

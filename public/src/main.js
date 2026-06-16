@@ -409,10 +409,9 @@ async function initSettings() {
         config = { ...config, ...JSON.parse(savedConfig) };
     }
     
-    // Load default system prompt if empty
-    if (!config.systemPrompt || !config.systemPrompt.trim()) {
-        await loadPromptPreset('kiro');
-    }
+    // Always load the preset matching the dropdown default to stay in sync
+    const currentPreset = document.querySelector('.custom-select[data-id="prompt-preset"]')?.dataset?.value || 'hr_buddy';
+    await loadPromptPreset(currentPreset);
 
     // Initialize custom dropdowns
     initCustomSelects();
@@ -1659,6 +1658,32 @@ function playToolAudio(url) {
     });
 }
 
+// Video playback for tool results (e.g., HRPlayVideo)
+let toolVideoElement = null;
+
+function playToolVideo(url) {
+    // Remove any existing tool video
+    if (toolVideoElement) {
+        toolVideoElement.pause();
+        toolVideoElement.remove();
+    }
+    // Create video element in chat
+    const videoWrapper = document.createElement('div');
+    videoWrapper.className = 'message assistant tool-video-wrapper';
+    toolVideoElement = document.createElement('video');
+    toolVideoElement.src = url;
+    toolVideoElement.controls = true;
+    toolVideoElement.autoplay = true;
+    toolVideoElement.style.maxWidth = '100%';
+    toolVideoElement.style.borderRadius = '8px';
+    videoWrapper.appendChild(toolVideoElement);
+    chatContainer.appendChild(videoWrapper);
+    scrollToBottom();
+    toolVideoElement.play().catch(err => {
+        console.error('Failed to play tool video:', err);
+    });
+}
+
 function showAssistantThinkingIndicator() {
     hideAssistantThinkingIndicator();
     waitingForAssistantResponse = true;
@@ -1918,6 +1943,10 @@ socket.on('toolResult', (data) => {
     const result = data.result;
     if (result && result.action === 'playAudio' && result.url) {
         playToolAudio(result.url);
+    }
+    // Handle video playback from tool results
+    if (result && result.action === 'playVideo' && result.url) {
+        playToolVideo(result.url);
     }
     
     showAssistantThinkingIndicator();

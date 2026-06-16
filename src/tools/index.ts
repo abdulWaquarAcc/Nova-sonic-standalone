@@ -14,6 +14,7 @@ export { KnowledgeBaseTool } from './KnowledgeBaseTool';
 export { TranslationTool } from './TranslationTool';
 export { HRKnowledgeBaseTool } from './HRKnowledgeBaseTool';
 export { HRPlayAudioTool } from './HRPlayAudioTool';
+export { HRPlayVideoTool } from './HRPlayVideoTool';
 
 import { ToolRegistry } from './Tool';
 import { DateTimeTool } from './DateTimeTool';
@@ -27,6 +28,7 @@ import { KnowledgeBaseTool } from './KnowledgeBaseTool';
 import { TranslationTool } from './TranslationTool';
 import { HRKnowledgeBaseTool } from './HRKnowledgeBaseTool';
 import { HRPlayAudioTool } from './HRPlayAudioTool';
+import { HRPlayVideoTool } from './HRPlayVideoTool';
 
 /**
  * Creates a ToolRegistry with all default tools registered
@@ -44,5 +46,6 @@ export function createDefaultToolRegistry(): ToolRegistry {
     registry.register(TranslationTool);
     registry.register(HRKnowledgeBaseTool);
     registry.register(HRPlayAudioTool);
+    registry.register(HRPlayVideoTool);
     return registry;
 }
