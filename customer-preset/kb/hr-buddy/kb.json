@@ -1,0 +1,129 @@
+{
+  "hr_questions": [
+    {
+      "id": 1,
+      "topic": "Payroll",
+      "question": "When is the salary credited each month?"
+    },
+    {
+      "id": 2,
+      "topic": "Payroll",
+      "question": "How can I download my monthly payslip?"
+    },
+    {
+      "id": 3,
+      "topic": "Payroll",
+      "question": "What deductions are applied to my salary (PF, ESI, TDS, etc.)?"
+    },
+    {
+      "id": 4,
+      "topic": "Payroll",
+      "question": "How is my CTC broken down into take-home and other components?"
+    },
+    {
+      "id": 5,
+      "topic": "Payroll",
+      "question": "What is the process for correcting a salary discrepancy?"
+    },
+    {
+      "id": 6,
+      "topic": "Payroll",
+      "question": "How do I submit my investment declarations for tax saving?"
+    },
+    {
+      "id": 7,
+      "topic": "Payroll",
+      "question": "When will my Form 16 be issued for income tax filing?"
+    },
+    {
+      "id": 8,
+      "topic": "New Joiner",
+      "question": "What documents do I need to submit during onboarding?"
+    },
+    {
+      "id": 9,
+      "topic": "New Joiner",
+      "question": "How long is the probation period for new employees?"
+    },
+    {
+      "id": 10,
+      "topic": "New Joiner",
+      "question": "When will I receive my employee ID and system access credentials?"
+    },
+    {
+      "id": 11,
+      "topic": "New Joiner",
+      "question": "Is there a buddy or mentor assigned during the induction period?"
+    },
+    {
+      "id": 12,
+      "topic": "New Joiner",
+      "question": "What is the schedule for new joiner orientation and training?"
+    },
+    {
+      "id": 13,
+      "topic": "New Joiner",
+      "question": "How do I enroll in the company's health insurance plan?"
+    },
+    {
+      "id": 14,
+      "topic": "New Joiner",
+      "question": "What is the notice period policy during and after probation?"
+    },
+    {
+      "id": 15,
+      "topic": "Leave Policy",
+      "question": "How many annual/earned leaves am I entitled to per year?"
+    },
+    {
+      "id": 16,
+      "topic": "Leave Policy",
+      "question": "What is the process for applying for sick leave?"
+    },
+    {
+      "id": 17,
+      "topic": "Leave Policy",
+      "question": "Can unused leaves be carried forward to the next year?"
+    },
+    {
+      "id": 18,
+      "topic": "Leave Policy",
+      "question": "What types of leave are available (casual, maternity, paternity, etc.)?"
+    },
+    {
+      "id": 19,
+      "topic": "Leave Policy",
+      "question": "How much advance notice is required before applying for planned leave?"
+    },
+    {
+      "id": 20,
+      "topic": "Leave Policy",
+      "question": "Is leave encashment available, and how is it calculated?"
+    },
+    {
+      "id": 21,
+      "topic": "Leave Policy",
+      "question": "What is the policy for emergency or unplanned leave?"
+    },
+    {
+      "id": 22,
+      "topic": "Grievance",
+      "question": "What is the official process to raise a workplace grievance?"
+    },
+    {
+      "id": 23,
+      "topic": "Grievance",
+      "question": "How long does HR typically take to resolve a grievance complaint?"
+    },
+    {
+      "id": 24,
+      "topic": "Grievance",
+      "question": "Can a grievance be raised anonymously, and will confidentiality be maintained?"
+    },
+    {
+      "id": 25,
+      "topic": "Grievance",
+      "question": "What is the escalation path if my grievance is not resolved at the first level?"
+    }
+  ]
+}

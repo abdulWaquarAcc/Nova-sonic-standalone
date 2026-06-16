@@ -1,0 +1,262 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-06-15T10:00:00Z",
+  "categories": [
+    "payroll",
+    "new-joiner",
+    "leave-policy",
+    "grievance"
+  ],
+  "entries": [
+    {
+      "id": "payroll-001",
+      "title": "When is the salary credited each month?",
+      "content": "Salaries are typically credited on the last working day of each month. In case the last day falls on a weekend or public holiday, the salary is credited on the preceding working day. Please check with your finance team for exact dates each month.",
+      "category": "payroll",
+      "tags": ["salary", "credit", "payment", "monthly"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-15T10:00:00Z",
+      "metadata": { "department": "HR", "topic": "Payroll" }
+    },
+    {
+      "id": "payroll-002",
+      "title": "How can I download my monthly payslip?",
+      "content": "You can download your monthly payslip from the HR portal. Log in with your employee credentials, navigate to the Payroll section, and select 'View Payslips'. You can download payslips for the current and previous months in PDF format.",
+      "category": "payroll",
+      "tags": ["payslip", "download", "portal", "salary"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-15T10:00:00Z",
+      "metadata": { "department": "HR", "topic": "Payroll" }
+    },
+    {
+      "id": "payroll-003",
+      "title": "What deductions are applied to my salary (PF, ESI, TDS, etc.)?",
+      "content": "Common deductions include: Provident Fund (PF) at 12% of basic salary, Employee State Insurance (ESI) if applicable, Tax Deducted at Source (TDS) based on your declared investments, and Professional Tax as per state regulations. You can view a detailed breakdown on your payslip.",
+      "category": "payroll",
+      "tags": ["deductions", "PF", "ESI", "TDS", "tax", "salary"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-15T10:00:00Z",
+      "metadata": { "department": "HR", "topic": "Payroll" }
+    },
+    {
+      "id": "payroll-004",
+      "title": "How is my CTC broken down into take-home and other components?",
+      "content": "Your CTC (Cost to Company) includes Basic Salary, HRA (House Rent Allowance), Special Allowance, Employer PF contribution, Gratuity, and other benefits. Take-home salary is the amount after deducting employee PF, TDS, Professional Tax, and other applicable deductions from the gross salary.",
+      "category": "payroll",
+      "tags": ["CTC", "take-home", "salary", "breakdown", "components"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-15T10:00:00Z",
+      "metadata": { "department": "HR", "topic": "Payroll" }
+    },
+    {
+      "id": "payroll-005",
+      "title": "What is the process for correcting a salary discrepancy?",
+      "content": "If you notice a discrepancy in your salary, raise a ticket on the HR portal under 'Payroll Queries'. Include details of the discrepancy with supporting documents. The payroll team typically resolves such issues within 5-7 working days. Any corrections will be adjusted in the next pay cycle.",
+      "category": "payroll",
+      "tags": ["salary", "discrepancy", "correction", "payroll", "issue"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-15T10:00:00Z",
+      "metadata": { "department": "HR", "topic": "Payroll" }
+    },
+    {
+      "id": "payroll-006",
+      "title": "How do I submit my investment declarations for tax saving?",
+      "content": "Investment declarations can be submitted through the HR portal under 'Tax Declarations'. You need to declare your planned investments under Section 80C, 80D, HRA exemption, and other applicable sections at the beginning of the financial year. Proofs must be submitted by January-February for final tax computation.",
+      "category": "payroll",
+      "tags": ["investment", "declaration", "tax", "80C", "saving"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-15T10:00:00Z",
+      "metadata": { "department": "HR", "topic": "Payroll" }
+    },
+    {
+      "id": "payroll-007",
+      "title": "When will my Form 16 be issued for income tax filing?",
+      "content": "Form 16 is issued annually by June 15th for the previous financial year. It will be available for download on the HR portal under the 'Tax Documents' section. You will receive an email notification once it is ready.",
+      "category": "payroll",
+      "tags": ["Form 16", "tax", "income tax", "filing"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-15T10:00:00Z",
+      "metadata": { "department": "HR", "topic": "Payroll" }
+    },
+    {
+      "id": "new-joiner-001",
+      "title": "What documents do I need to submit during onboarding?",
+      "content": "New joiners must submit the following documents: Government-issued photo ID (Aadhaar/Passport), PAN card, educational certificates and mark sheets, previous employment relieving letters, last 3 months' salary slips, bank account details, passport-sized photographs, and address proof.",
+      "category": "new-joiner",
+      "tags": ["documents", "onboarding", "new joiner", "joining"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-15T10:00:00Z",
+      "metadata": { "department": "HR", "topic": "New Joiner" }
+    },
+    {
+      "id": "new-joiner-002",
+      "title": "How long is the probation period for new employees?",
+      "content": "The standard probation period is 6 months from the date of joining. During this period, your performance and fit will be evaluated. Upon successful completion, you will be confirmed as a regular employee. In some cases, probation may be extended by up to 3 months.",
+      "category": "new-joiner",
+      "tags": ["probation", "new employee", "confirmation", "period"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-15T10:00:00Z",
+      "metadata": { "department": "HR", "topic": "New Joiner" }
+    },
+    {
+      "id": "new-joiner-003",
+      "title": "When will I receive my employee ID and system access credentials?",
+      "content": "Your employee ID is generated on or before your first day. System access credentials (email, internal tools, VPN) are typically provisioned within 24-48 hours of joining. Your reporting manager and IT helpdesk can assist if there are delays.",
+      "category": "new-joiner",
+      "tags": ["employee ID", "credentials", "system access", "IT"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-15T10:00:00Z",
+      "metadata": { "department": "HR", "topic": "New Joiner" }
+    },
+    {
+      "id": "new-joiner-004",
+      "title": "Is there a buddy or mentor assigned during the induction period?",
+      "content": "Yes, every new joiner is assigned a buddy from their team who helps with orientation, answers day-to-day questions, and eases the transition. Your buddy will be introduced on your first day. For longer-term guidance, a mentor may also be assigned within the first month.",
+      "category": "new-joiner",
+      "tags": ["buddy", "mentor", "induction", "orientation"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-15T10:00:00Z",
+      "metadata": { "department": "HR", "topic": "New Joiner" }
+    },
+    {
+      "id": "new-joiner-005",
+      "title": "What is the schedule for new joiner orientation and training?",
+      "content": "New joiner orientation typically runs during the first week and covers company overview, HR policies, IT setup, compliance training, and team introductions. Role-specific training is scheduled by your manager in weeks 2-4. Check your calendar and the HR portal for the detailed schedule.",
+      "category": "new-joiner",
+      "tags": ["orientation", "training", "schedule", "induction"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-15T10:00:00Z",
+      "metadata": { "department": "HR", "topic": "New Joiner" }
+    },
+    {
+      "id": "new-joiner-006",
+      "title": "How do I enroll in the company's health insurance plan?",
+      "content": "Health insurance enrollment is part of the onboarding process. You will receive a form to add yourself and dependents (spouse, children, parents) to the group health insurance plan. Submit the filled form with dependent details within your first week. Coverage begins from the date of joining.",
+      "category": "new-joiner",
+      "tags": ["health insurance", "enrollment", "medical", "dependents"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-15T10:00:00Z",
+      "metadata": { "department": "HR", "topic": "New Joiner" }
+    },
+    {
+      "id": "new-joiner-007",
+      "title": "What is the notice period policy during and after probation?",
+      "content": "During the probation period, the notice period is typically 1 month. After confirmation as a regular employee, the notice period is usually 2-3 months depending on your role and level. The exact notice period is specified in your offer letter and employment agreement.",
+      "category": "new-joiner",
+      "tags": ["notice period", "probation", "resignation", "policy"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-15T10:00:00Z",
+      "metadata": { "department": "HR", "topic": "New Joiner" }
+    },
+    {
+      "id": "leave-001",
+      "title": "How many annual/earned leaves am I entitled to per year?",
+      "content": "Employees are entitled to 18 earned/annual leaves per calendar year. These are credited on a monthly basis (1.5 days per month). New joiners receive prorated leaves based on their date of joining. Earned leaves can be accumulated and carried forward subject to a maximum cap.",
+      "category": "leave-policy",
+      "tags": ["annual leave", "earned leave", "entitlement", "days"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-15T10:00:00Z",
+      "metadata": { "department": "HR", "topic": "Leave Policy" }
+    },
+    {
+      "id": "leave-002",
+      "title": "What is the process for applying for sick leave?",
+      "content": "Sick leave can be applied through the HR portal or leave management system. For 1-2 days, prior intimation to your manager is sufficient. For 3 or more consecutive days, a medical certificate from a registered practitioner is required. You are entitled to 12 sick leaves per year.",
+      "category": "leave-policy",
+      "tags": ["sick leave", "medical", "apply", "certificate"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-15T10:00:00Z",
+      "metadata": { "department": "HR", "topic": "Leave Policy" }
+    },
+    {
+      "id": "leave-003",
+      "title": "Can unused leaves be carried forward to the next year?",
+      "content": "Yes, unused earned/annual leaves can be carried forward to the next calendar year, up to a maximum of 30 days. Casual leaves and sick leaves typically lapse at year end and cannot be carried forward. Check the leave policy document for specific details.",
+      "category": "leave-policy",
+      "tags": ["carry forward", "unused leave", "lapse", "accumulation"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-15T10:00:00Z",
+      "metadata": { "department": "HR", "topic": "Leave Policy" }
+    },
+    {
+      "id": "leave-004",
+      "title": "What types of leave are available (casual, maternity, paternity, etc.)?",
+      "content": "Available leave types include: Earned/Annual Leave (18 days), Casual Leave (7 days), Sick Leave (12 days), Maternity Leave (26 weeks), Paternity Leave (5 days), Bereavement Leave (5 days), Marriage Leave (3 days), and Compensatory Off for working on holidays. Special leaves may be granted on a case-by-case basis.",
+      "category": "leave-policy",
+      "tags": ["leave types", "casual", "maternity", "paternity", "sick"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-15T10:00:00Z",
+      "metadata": { "department": "HR", "topic": "Leave Policy" }
+    },
+    {
+      "id": "leave-005",
+      "title": "How much advance notice is required before applying for planned leave?",
+      "content": "For planned leave of 1-3 days, apply at least 3 working days in advance. For leave of 4+ days, apply at least 7 working days in advance. Long leaves (more than 2 weeks) should be discussed with your manager at least 1 month in advance. All leaves require manager approval.",
+      "category": "leave-policy",
+      "tags": ["advance notice", "planned leave", "approval", "application"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-15T10:00:00Z",
+      "metadata": { "department": "HR", "topic": "Leave Policy" }
+    },
+    {
+      "id": "leave-006",
+      "title": "Is leave encashment available, and how is it calculated?",
+      "content": "Leave encashment is available for earned/annual leaves exceeding 30 days at year end, or upon separation from the company. Encashment is calculated based on your basic salary divided by 30, multiplied by the number of encashable days. Tax is applicable on encashed leave.",
+      "category": "leave-policy",
+      "tags": ["leave encashment", "calculation", "payout", "earned leave"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-15T10:00:00Z",
+      "metadata": { "department": "HR", "topic": "Leave Policy" }
+    },
+    {
+      "id": "leave-007",
+      "title": "What is the policy for emergency or unplanned leave?",
+      "content": "For emergency or unplanned leave, inform your manager as soon as possible via call, message, or email. Apply for the leave on the HR portal within 2 working days of returning. Frequent unplanned absences without valid reason may be flagged and discussed during performance reviews.",
+      "category": "leave-policy",
+      "tags": ["emergency leave", "unplanned", "absence", "policy"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-15T10:00:00Z",
+      "metadata": { "department": "HR", "topic": "Leave Policy" }
+    },
+    {
+      "id": "grievance-001",
+      "title": "What is the official process to raise a workplace grievance?",
+      "content": "To raise a workplace grievance, submit a formal complaint through the HR portal under 'Grievance Redressal' or email the HR team directly. Include details of the issue, relevant dates, and any supporting evidence. You can also speak to your HRBP (HR Business Partner) in person for guidance.",
+      "category": "grievance",
+      "tags": ["grievance", "complaint", "raise", "process", "workplace"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-15T10:00:00Z",
+      "metadata": { "department": "HR", "topic": "Grievance" }
+    },
+    {
+      "id": "grievance-002",
+      "title": "How long does HR typically take to resolve a grievance complaint?",
+      "content": "HR acknowledges grievance complaints within 2 working days. Simple issues are typically resolved within 7-10 working days. Complex cases involving investigation may take up to 30 working days. You will receive regular updates on the progress of your complaint.",
+      "category": "grievance",
+      "tags": ["grievance", "resolution", "timeline", "HR"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-15T10:00:00Z",
+      "metadata": { "department": "HR", "topic": "Grievance" }
+    },
+    {
+      "id": "grievance-003",
+      "title": "Can a grievance be raised anonymously, and will confidentiality be maintained?",
+      "content": "Yes, grievances can be raised anonymously through the ethics hotline or anonymous grievance portal. All complaints, whether anonymous or identified, are treated with strict confidentiality. Only authorized HR personnel and investigators will have access to the details. Retaliation against complainants is strictly prohibited.",
+      "category": "grievance",
+      "tags": ["anonymous", "confidential", "grievance", "ethics", "privacy"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-15T10:00:00Z",
+      "metadata": { "department": "HR", "topic": "Grievance" }
+    },
+    {
+      "id": "grievance-004",
+      "title": "What is the escalation path if my grievance is not resolved at the first level?",
+      "content": "If your grievance is not resolved satisfactorily at the first level (HRBP), you can escalate to: Level 2 - HR Head, Level 3 - Grievance Committee (comprising senior leadership and HR), Level 4 - Ethics Committee or the company ombudsperson. Each level has a defined timeline for response and resolution.",
+      "category": "grievance",
+      "tags": ["escalation", "grievance", "levels", "committee", "resolution"],
+      "source": "HR Buddy Knowledge Base",
+      "lastUpdated": "2026-06-15T10:00:00Z",
+      "metadata": { "department": "HR", "topic": "Grievance" }
+    }
+  ]
+}

@@ -1643,6 +1643,22 @@ function showUserThinkingIndicator() {
     scrollToBottom();
 }
 
+// Audio playback for tool results (e.g., HRPlayAudio)
+let toolAudioElement = null;
+
+function playToolAudio(url) {
+    // Stop any existing tool audio
+    if (toolAudioElement) {
+        toolAudioElement.pause();
+        toolAudioElement.remove();
+    }
+    toolAudioElement = new Audio(url);
+    toolAudioElement.volume = 0.7;
+    toolAudioElement.play().catch(err => {
+        console.error('Failed to play tool audio:', err);
+    });
+}
+
 function showAssistantThinkingIndicator() {
     hideAssistantThinkingIndicator();
     waitingForAssistantResponse = true;
@@ -1896,6 +1912,12 @@ socket.on('toolResult', (data) => {
         
         // Update the displayed tool card
         updateToolCardById(data.toolUseId, tool);
+    }
+
+    // Handle audio playback from tool results
+    const result = data.result;
+    if (result && result.action === 'playAudio' && result.url) {
+        playToolAudio(result.url);
     }
     
     showAssistantThinkingIndicator();

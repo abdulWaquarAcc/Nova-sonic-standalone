@@ -86,6 +86,9 @@ setInterval(() => {
 // Serve static files from the public directory
 app.use(express.static(path.join(process.cwd(), 'public')));
 
+// Serve audio files from customer-preset/video
+app.use('/audio', express.static(path.join(process.cwd(), 'customer-preset', 'video')));
+
 // Helper function to create and initialize a new session
 async function createNewSession(socket: any, config: any = {}): Promise<StreamSession> {
     const sessionId = socket.id;
