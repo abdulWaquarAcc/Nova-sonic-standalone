@@ -66,6 +66,8 @@ let role;
 const audioPlayer = new AudioPlayer();
 let sessionInitialized = false;
 let manualDisconnect = false;
+let isTextInputTurn = false; // Track if current turn was initiated via text input (suppress audio)
+window.isTextInputTurn = false; // Expose for typing.js
 
 // Waveform animation
 let animationId = null;
@@ -1774,7 +1776,11 @@ socket.on('audioOutput', (data) => {
     if (data.content) {
         try {
             const audioData = base64ToFloat32Array(data.content);
-            audioPlayer.playAudio(audioData);
+            
+            // Skip audio playback if this turn was initiated via text input
+            if (!isTextInputTurn && !window.isTextInputTurn) {
+                audioPlayer.playAudio(audioData);
+            }
 
             // Calculate this chunk's duration based on sample rate
             const chunkDuration = (audioData.length / config.outputSampleRate) * 1000; // in ms
@@ -1821,6 +1827,8 @@ socket.on('contentEnd', (data) => {
             // Clear pending tools - they're already displayed as floating cards
             // No need to re-add to history, just clear the tracking array
             pendingToolUses = [];
+            isTextInputTurn = false; // Reset text input flag at end of turn
+            window.isTextInputTurn = false;
             chatHistoryManager.endTurn();
         } else if (data.stopReason?.toUpperCase() === 'INTERRUPTED') {
             audioPlayer.bargeIn();

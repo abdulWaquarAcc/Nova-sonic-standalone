@@ -136,6 +136,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
             
             // Send to server
+            window.isTextInputTurn = true; // Suppress audio playback for text-initiated turns
             socket.emit('textInput', { content: message });
             
         } catch (error) {

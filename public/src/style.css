@@ -414,20 +414,40 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1rem;
-    gap: 1rem;
+    padding: 0;
+    gap: 0;
     overflow: hidden;
     min-height: 0;
+    background: url('/bg.jpg') center/cover no-repeat;
+    position: relative;
+}
+
+.main-layout {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: stretch;
+}
+
+.chat-card {
+    flex: 0 0 50%;
+    max-width: 50%;
+    background: #ffffff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 0;
 }
 
 
 
 .voice-container {
+    flex: 0 0 50%;
+    max-width: 50%;
     position: relative;
-    width: 100%;
-    flex: 0 0 auto;
-    min-height: 180px;
-    max-height: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -499,9 +519,9 @@ html, body {
     flex-direction: column;
     gap: 0.5rem;
     padding: 0.75rem;
-    background: var(--bg-card);
-    border-radius: 16px;
-    border: 1px solid var(--border-color);
+    background: transparent;
+    border-radius: 0;
+    border: none;
     min-height: 0;
     scroll-behavior: smooth;
 }
@@ -511,6 +531,7 @@ html, body {
     border-radius: 12px;
     max-width: 80%;
     font-size: 0.875rem;
+    font-size: 12px;
     line-height: 1.4;
     margin: 0.25rem 0;
     animation: messageSlideIn 0.5s cubic-bezier(0.4, 0, 0.2, 1);
@@ -522,8 +543,8 @@ html, body {
 }
 
 .message.user { background: var(--accent-gradient); color: white; align-self: flex-end; border-bottom-right-radius: 4px; }
-.message.assistant { background: var(--bg-input); color: var(--text-primary); align-self: flex-start; border-bottom-left-radius: 4px; }
-.message.system { background: transparent; color: var(--text-secondary); align-self: center; text-align: center; }
+.message.assistant { background: #f0f4f8; color: #1a202c; align-self: flex-start; border-bottom-left-radius: 4px; }
+.message.system { background: transparent; color: #4a5568; align-self: center; text-align: center; }
 
 /* Guardrail violation messages */
 .message.guardrail-high {
@@ -709,14 +730,14 @@ html, body {
 
 @media (max-width: 768px) {
     .settings-panel { width: 100%; }
+    .main-layout { flex-direction: column; }
+    .chat-card { flex: 1; max-width: 100%; margin: 1rem; }
+    .voice-container { flex: 0 0 auto; max-width: 100%; min-height: 180px; }
     .button-wrapper { width: 160px; height: 160px; }
     .ring-canvas { width: 160px; height: 160px; }
     .voice-btn { width: 80px; height: 80px; }
     .voice-btn svg { width: 32px; height: 32px; }
     .message { max-width: 90%; }
-    .voice-container { min-height: 140px; }
-    .main-content { padding: 0.75rem; gap: 0.75rem; }
-    .chat-container { padding: 0.75rem; border-radius: 12px; }
 }
 
 @media (max-height: 600px) {
@@ -725,7 +746,6 @@ html, body {
     .ring-canvas { width: 140px; height: 140px; }
     .voice-btn { width: 70px; height: 70px; }
     .voice-btn svg { width: 28px; height: 28px; }
-    .status { padding: 0.4rem 1rem; font-size: 0.875rem; }
 }
 
 .hidden { display: none !important; }
@@ -1183,7 +1203,11 @@ html, body {
 }
 
 .main-content.typing-active {
-    padding-bottom: 100px;
+    padding-bottom: 0;
+}
+
+.main-content.typing-active .chat-card {
+    margin-bottom: 100px;
 }
 
 .main-content:has(.typing-window:not(.hidden)) .chat-container {

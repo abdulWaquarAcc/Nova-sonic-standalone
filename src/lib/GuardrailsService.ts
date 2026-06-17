@@ -222,7 +222,7 @@ export class GuardrailsService {
                 violationType: ViolationType.OFF_TOPIC,
                 message: GuardrailsConfig.grounding.offTopicMessage,
                 severity: 'medium',
-                details: 'No electricity service-related keywords detected'
+                details: 'No relevant topic keywords detected'
             };
         }
 

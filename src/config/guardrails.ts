@@ -25,7 +25,7 @@ export const GuardrailsConfig = {
             /what\s+(are|is)\s+your\s+(instructions|prompt|rules)/gi,
         ],
         // Response when injection detected
-        rejectionMessage: "I'm here to help with electricity service questions. Could you please rephrase your question?"
+        rejectionMessage: "I'm here to help with your questions. Could you please rephrase that?"
     },
 
     // Content filtering
@@ -52,14 +52,15 @@ export const GuardrailsConfig = {
             'drug', 'illegal', 'criminal'
         ],
         // Response for blocked content
-        blockedContentMessage: "I can only assist with electricity service-related questions. How can I help you with your power service today?"
+        blockedContentMessage: "I can only assist with questions related to my area of expertise. How can I help you today?"
     },
 
-    // Grounding rules - keep responses focused on electricity utility
+    // Grounding rules - keep responses focused on allowed topics
     grounding: {
         enabled: true,
         // Allowed topics
         allowedTopics: [
+            // Electricity service topics
             'power outage',
             'electricity service',
             'billing',
@@ -79,19 +80,72 @@ export const GuardrailsConfig = {
             'deposit',
             'payment plan',
             'bill copy',
-            'statement'
+            'statement',
+            // HR Buddy topics
+            'payroll',
+            'salary',
+            'payslip',
+            'deductions',
+            'ctc',
+            'tax',
+            'form 16',
+            'investment declaration',
+            'new joiner',
+            'onboarding',
+            'probation',
+            'employee id',
+            'buddy',
+            'mentor',
+            'orientation',
+            'training',
+            'health insurance',
+            'notice period',
+            'leave',
+            'sick leave',
+            'casual leave',
+            'maternity leave',
+            'paternity leave',
+            'leave encashment',
+            'grievance',
+            'complaint',
+            'escalation',
+            // Company info topics
+            'company',
+            'certis',
+            'innovation',
+            'robotics',
+            'ai',
+            'security',
+            'vision',
+            'board of directors',
+            'leadership',
+            'community',
+            'sustainability'
         ],
         // Keywords that indicate on-topic queries
         relevantKeywords: [
+            // Electricity keywords
             'power', 'electricity', 'electric', 'energy',
             'outage', 'blackout', 'service', 'utility',
             'bill', 'payment', 'account', 'meter',
             'connection', 'disconnect', 'move', 'transfer',
             'kwh', 'kilowatt', 'voltage', 'current',
-            'line', 'pole', 'transformer', 'grid'
+            'line', 'pole', 'transformer', 'grid',
+            // HR keywords
+            'salary', 'payroll', 'payslip', 'ctc', 'deduction',
+            'pf', 'esi', 'tds', 'tax', 'form 16',
+            'leave', 'sick', 'casual', 'maternity', 'paternity',
+            'onboarding', 'joining', 'probation', 'notice period',
+            'grievance', 'complaint', 'hr', 'hrbp',
+            'insurance', 'medical', 'buddy', 'mentor',
+            // Company/innovation keywords
+            'certis', 'company', 'innovation', 'robotics',
+            'ai', 'ops-tech', 'security', 'vision',
+            'chairman', 'ceo', 'director', 'board',
+            'patent', 'automation', 'surveillance'
         ],
         // Response for off-topic queries
-        offTopicMessage: "I specialize in electricity service questions. For other inquiries, please contact our general customer service. How can I help with your electricity service?"
+        offTopicMessage: "That topic is outside my area of expertise. How can I help you with something else?"
     },
 
     // Personal information protection
