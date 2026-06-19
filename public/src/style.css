@@ -78,6 +78,7 @@ html, body {
     gap: 0.5rem;
     font-size: 0.8rem;
     color: var(--text-secondary);
+    display: none !important;
 }
 
 .todo-id-input {
