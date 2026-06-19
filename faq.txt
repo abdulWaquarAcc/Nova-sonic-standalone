@@ -1,0 +1,110 @@
+Certis HR Buddy - Frequently Asked Questions
+==============================================
+
+--- PAYROLL ---
+
+Q: When is the salary credited each month?
+A: Salaries are typically credited on the last working day of each month. In case the last day falls on a weekend or public holiday, the salary is credited on the preceding working day. Please check with your finance team for exact dates each month.
+
+Q: How can I download my monthly payslip?
+A: You can download your monthly payslip from the HR portal. Log in with your employee credentials, navigate to the Payroll section, and select 'View Payslips'. You can download payslips for the current and previous months in PDF format.
+
+Q: What deductions are applied to my salary (PF, ESI, TDS, etc.)?
+A: Common deductions include: Provident Fund (PF) at 12% of basic salary, Employee State Insurance (ESI) if applicable, Tax Deducted at Source (TDS) based on your declared investments, and Professional Tax as per state regulations. You can view a detailed breakdown on your payslip.
+
+Q: How is my CTC broken down into take-home and other components?
+A: Your CTC (Cost to Company) includes Basic Salary, HRA (House Rent Allowance), Special Allowance, Employer PF contribution, Gratuity, and other benefits. Take-home salary is the amount after deducting employee PF, TDS, Professional Tax, and other applicable deductions from the gross salary.
+
+Q: What is the process for correcting a salary discrepancy?
+A: If you notice a discrepancy in your salary, raise a ticket on the HR portal under 'Payroll Queries'. Include details of the discrepancy with supporting documents. The payroll team typically resolves such issues within 5-7 working days. Any corrections will be adjusted in the next pay cycle.
+
+Q: How do I submit my investment declarations for tax saving?
+A: Investment declarations can be submitted through the HR portal under 'Tax Declarations'. You need to declare your planned investments under Section 80C, 80D, HRA exemption, and other applicable sections at the beginning of the financial year. Proofs must be submitted by January-February for final tax computation.
+
+Q: When will my Form 16 be issued for income tax filing?
+A: Form 16 is issued annually by June 15th for the previous financial year. It will be available for download on the HR portal under the 'Tax Documents' section. You will receive an email notification once it is ready.
+
+--- NEW JOINER ---
+
+Q: What documents do I need to submit during onboarding?
+A: New joiners must submit the following documents: Government-issued photo ID (Aadhaar/Passport), PAN card, educational certificates and mark sheets, previous employment relieving letters, last 3 months' salary slips, bank account details, passport-sized photographs, and address proof.
+
+Q: How long is the probation period for new employees?
+A: The standard probation period is 6 months from the date of joining. During this period, your performance and fit will be evaluated. Upon successful completion, you will be confirmed as a regular employee. In some cases, probation may be extended by up to 3 months.
+
+Q: When will I receive my employee ID and system access credentials?
+A: Your employee ID is generated on or before your first day. System access credentials (email, internal tools, VPN) are typically provisioned within 24-48 hours of joining. Your reporting manager and IT helpdesk can assist if there are delays.
+
+Q: Is there a buddy or mentor assigned during the induction period?
+A: Yes, every new joiner is assigned a buddy from their team who helps with orientation, answers day-to-day questions, and eases the transition. Your buddy will be introduced on your first day. For longer-term guidance, a mentor may also be assigned within the first month.
+
+Q: What is the schedule for new joiner orientation and training?
+A: New joiner orientation typically runs during the first week and covers company overview, HR policies, IT setup, compliance training, and team introductions. Role-specific training is scheduled by your manager in weeks 2-4. Check your calendar and the HR portal for the detailed schedule.
+
+Q: How do I enroll in the company's health insurance plan?
+A: Health insurance enrollment is part of the onboarding process. You will receive a form to add yourself and dependents (spouse, children, parents) to the group health insurance plan. Submit the filled form with dependent details within your first week. Coverage begins from the date of joining.
+
+Q: What is the notice period policy during and after probation?
+A: During the probation period, the notice period is typically 1 month. After confirmation as a regular employee, the notice period is usually 2-3 months depending on your role and level. The exact notice period is specified in your offer letter and employment agreement.
+
+--- LEAVE POLICY ---
+
+Q: How many annual/earned leaves am I entitled to per year?
+A: Employees are entitled to 18 earned/annual leaves per calendar year. These are credited on a monthly basis (1.5 days per month). New joiners receive prorated leaves based on their date of joining. Earned leaves can be accumulated and carried forward subject to a maximum cap.
+
+Q: What is the process for applying for sick leave?
+A: Sick leave can be applied through the HR portal or leave management system. For 1-2 days, prior intimation to your manager is sufficient. For 3 or more consecutive days, a medical certificate from a registered practitioner is required. You are entitled to 12 sick leaves per year.
+
+Q: Can unused leaves be carried forward to the next year?
+A: Yes, unused earned/annual leaves can be carried forward to the next calendar year, up to a maximum of 30 days. Casual leaves and sick leaves typically lapse at year end and cannot be carried forward. Check the leave policy document for specific details.
+
+Q: What types of leave are available (casual, maternity, paternity, etc.)?
+A: Available leave types include: Earned/Annual Leave (18 days), Casual Leave (7 days), Sick Leave (12 days), Maternity Leave (26 weeks), Paternity Leave (5 days), Bereavement Leave (5 days), Marriage Leave (3 days), and Compensatory Off for working on holidays. Special leaves may be granted on a case-by-case basis.
+
+Q: How much advance notice is required before applying for planned leave?
+A: For planned leave of 1-3 days, apply at least 3 working days in advance. For leave of 4+ days, apply at least 7 working days in advance. Long leaves (more than 2 weeks) should be discussed with your manager at least 1 month in advance. All leaves require manager approval.
+
+Q: Is leave encashment available, and how is it calculated?
+A: Leave encashment is available for earned/annual leaves exceeding 30 days at year end, or upon separation from the company. Encashment is calculated based on your basic salary divided by 30, multiplied by the number of encashable days. Tax is applicable on encashed leave.
+
+Q: What is the policy for emergency or unplanned leave?
+A: For emergency or unplanned leave, inform your manager as soon as possible via call, message, or email. Apply for the leave on the HR portal within 2 working days of returning. Frequent unplanned absences without valid reason may be flagged and discussed during performance reviews.
+
+--- COMPANY INFORMATION ---
+
+Q: What is Certis?
+A: Certis is a leading tech security powerhouse and outsourced services partner that designs, builds, and operates multi-disciplinary smart security and integrated services. Combining digital innovation, deep operational expertise, and applied AI solutions, Certis delivers seamless, trusted solutions that empower people, protect assets, and shape Safer, Smarter, Better environments — all underpinned by comprehensive technology development and cyber-secure systems integration.
+
+Q: What are the key highlights of Certis?
+A: Innovation: 30+ patents filed, focused on Ops-Tech. Scale: 25,000+ employees across Singapore, Australia, and Qatar. Markets: Smart cities, airports, healthcare, and defence. Recognition: Named a Best Employer 2025 (Singapore); 60+ awards in FY25 covering innovation, HR, marketing, and security. Outlook: On a clear growth trajectory toward its FY28 revenue goal.
+
+Q: Who are the people behind innovation at Certis?
+A: At Certis, our 25,000+ employees are the engine of innovation. Through AI literacy training, leadership development, and a strong peer support network, we build a future-ready, inclusive workforce — ensuring every breakthrough is driven by skilled, empowered people committed to delivering Safer, Smarter, Better outcomes.
+
+Q: How is the community and environment commitment at Certis?
+A: Certis is committed to four key pillars: 1. We Care About Our People, 2. We Protect Our Environment, 3. We Give Back to Our Community, 4. We Support Our Customers in Their Sustainability Journey.
+
+Q: Who are the Board of Directors at Certis?
+A: Allen Lew as Chairman, Ng Tian Beng as President & Group Chief Executive Officer, Khoo Boon Hui as Director, and Paul Retter as Director.
+
+--- COMPANY VISION ---
+
+Q: What is Certis's relentless commitment to innovation?
+A: Innovation drives how we operate, serve, and grow. Guided by our Purpose, Certis relentlessly invests in AI, orchestration, and people development to stay ahead of change. We view innovation not as an initiative, but as a mindset, powering sustainable growth and delivering Safer, Smarter, and Better outcomes.
+
+Q: What is the President & Group CEO's message?
+A: Innovation is the only way to move forward. It is how we have chosen to progress in our relentless pursuit of excellence.
+
+Q: What is the Chairman's message?
+A: Relentless innovation is not an initiative. It's our posture, and who we are.
+
+--- INNOVATION ---
+
+Q: Can you provide an example of AI for All at Certis?
+A: AI for All delivers trusted intelligence by enhancing information retrieval, unlocking enterprise knowledge, and improving business processes with AI precision.
+
+Q: What are the uses of robotics for innovation in motion at Certis?
+A: Harnessing Robotics and Ops-Tech for Smarter Security: Leveraging intelligent automation and operational technologies to enhance threat detection, accelerate response, and strengthen security resilience.
+
+Q: How is Certis leveraging technology to enhance security operations across major institutions in Singapore?
+A: Certis leverages AI-powered surveillance, digital access control, robotics, and integrated command platforms to strengthen security and streamline operations.
