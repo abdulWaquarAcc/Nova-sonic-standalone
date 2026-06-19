@@ -19,12 +19,17 @@ export interface KnowledgeBaseEntry {
 }
 
 export type KnowledgeCategory = 
+    | 'payroll'
+    | 'new-joiner'
+    | 'leave-policy'
+    | 'company-info'
+    | 'company-vision'
+    | 'innovation'
     | 'policies' 
     | 'procedures' 
     | 'faq' 
     | 'technical' 
     | 'general'
-    | 'company-info'
     | 'products'
     | 'support';
 

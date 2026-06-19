@@ -4,8 +4,8 @@
 
 export const KnowledgeBaseConfig = {
     // File paths
-    dataPath: './data/knowledge-base',
-    indexFile: './data/knowledge-base/index.json',
+    dataPath: './customer-preset/kb/hr-buddy',
+    indexFile: './customer-preset/kb/hr-buddy/index.json',
     
     // Search settings
     search: {
@@ -18,11 +18,12 @@ export const KnowledgeBaseConfig = {
     
     // Categories and their descriptions
     categories: {
-        'outage': 'Power outage reporting and status',
-        'service': 'Move or disconnect electricity service',
-        'connection': 'New electricity connection requests',
-        'payment': 'Bill payment and payment plans',
-        'meter': 'Meter reading submission and inquiries'
+        'payroll': 'Salary, payslips, deductions, tax declarations, Form 16',
+        'new-joiner': 'Onboarding documents, probation, employee ID, orientation, health insurance',
+        'leave-policy': 'Leave entitlement, sick leave, carry forward, leave types, encashment',
+        'company-info': 'About Certis, key highlights, leadership, community commitment',
+        'company-vision': 'Innovation strategy, CEO and Chairman messages',
+        'innovation': 'AI, robotics, ops-tech, and security innovation at Certis'
     },
     
     // Search weights for different fields
