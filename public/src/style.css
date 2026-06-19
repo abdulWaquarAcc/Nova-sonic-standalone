@@ -72,6 +72,30 @@ html, body {
 
 .header-controls { display: flex; align-items: center; gap: 0.75rem; }
 
+.todo-id-control {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+.todo-id-input {
+    width: 60px;
+    padding: 4px 8px;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    background: var(--bg-input);
+    color: var(--text-primary);
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+.todo-id-input:focus {
+    outline: none;
+    border-color: var(--border-focus);
+}
+
 .icon-btn {
     background: transparent;
     border: none;

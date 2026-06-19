@@ -52,6 +52,7 @@ const guardrailsService = GuardrailsService.getInstance();
 const socketSessions = new Map<string, StreamSession>();
 const socketClients = new Map<string, NovaSonicBidirectionalStreamClient>();
 const socketConfigs = new Map<string, any>();
+const socketTodoIds = new Map<string, number>();
 
 // Session states
 enum SessionState {
@@ -539,6 +540,16 @@ io.on('connection', (socket) => {
         }
     });
 
+    // Track todo ID from client input
+    socket.on('setTodoId', (id: number) => {
+        socketTodoIds.set(socket.id, id);
+        // Also update the session's custom data so tools can access it
+        const client = socketClients.get(socket.id);
+        if (client && client.isSessionActive(socket.id)) {
+            client.setSessionCustomData(socket.id, 'todoId', id);
+        }
+    });
+
     socket.on('disconnect', async () => {
         console.log('Client disconnected:', socket.id);
         clearInterval(connectionInterval);
@@ -581,6 +592,7 @@ io.on('connection', (socket) => {
         socketSessions.delete(socket.id);
         socketClients.delete(socket.id);
         socketConfigs.delete(socket.id);
+        socketTodoIds.delete(socket.id);
         sessionStates.delete(socket.id);
         cleanupInProgress.delete(socket.id);
 

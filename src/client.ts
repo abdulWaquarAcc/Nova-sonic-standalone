@@ -167,6 +167,7 @@ interface SessionData {
   turnDetectionConfig?: TurnDetectionConfig;
   toolChoice?: ToolChoice;
   enabledTools?: string[];
+  customData?: Record<string, unknown>;
   isActive: boolean;
   isPromptStartSent: boolean;
   isAudioContentStartSent: boolean;
@@ -282,7 +283,7 @@ export class NovaSonicBidirectionalStreamClient {
     try {
       // Get session's inference config to pass to tools
       const session = this.activeSessions.get(sessionId);
-      const context = session ? { inferenceConfig: session.inferenceConfig } : undefined;
+      const context = session ? { inferenceConfig: session.inferenceConfig, customData: session.customData } : undefined;
       
       // Parse tool parameters from the toolUse event
       // AWS Nova Sonic sends content as a JSON string in the toolUse event
@@ -1045,6 +1046,14 @@ export class NovaSonicBidirectionalStreamClient {
       throw new Error(`Session ${sessionId} not found`);
     }
     session.responseHandlers.set(eventType, handler);
+  }
+
+  // Set custom data on a session (accessible by tools via context)
+  public setSessionCustomData(sessionId: string, key: string, value: unknown): void {
+    const session = this.activeSessions.get(sessionId);
+    if (!session) return;
+    if (!session.customData) session.customData = {};
+    session.customData[key] = value;
   }
 
   // Dispatch an event to registered handlers

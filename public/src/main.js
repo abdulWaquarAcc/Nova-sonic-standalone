@@ -2094,4 +2094,17 @@ document.addEventListener('DOMContentLoaded', async () => {
     initTheme();
     await initSettings();
     initWaveformCanvas();
+
+    // Todo ID input - sync to server on change
+    const todoIdInput = document.getElementById('todo-id-input');
+    if (todoIdInput) {
+        todoIdInput.addEventListener('change', (e) => {
+            const id = parseInt(e.target.value, 10);
+            if (!isNaN(id) && id > 0) {
+                socket.emit('setTodoId', id);
+            }
+        });
+        // Send initial value
+        socket.emit('setTodoId', parseInt(todoIdInput.value, 10) || 1);
+    }
 });

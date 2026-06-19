@@ -17,6 +17,8 @@ export interface ToolExecutionContext {
         topP: number;
         temperature: number;
     };
+    /** Custom data passed from the client (e.g., UI input values) */
+    customData?: Record<string, unknown>;
 }
 
 export interface Tool {
