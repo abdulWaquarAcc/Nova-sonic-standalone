@@ -11,7 +11,7 @@ export interface BedrockKBConfig {
 }
 
 const DEFAULT_CONFIG: BedrockKBConfig = {
-    knowledgeBaseId: '9EUCX45UDQ',
+    knowledgeBaseId: 'CMRVQHIDYI',
     region: 'us-east-1'
 };
 
