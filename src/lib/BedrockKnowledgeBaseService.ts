@@ -11,7 +11,7 @@ export interface BedrockKBConfig {
 }
 
 const DEFAULT_CONFIG: BedrockKBConfig = {
-    knowledgeBaseId: 'CMRVQHIDYI',
+    knowledgeBaseId: 'B0KC3Z731M',
     region: 'us-east-1'
 };
 
@@ -86,6 +86,10 @@ export class BedrockKnowledgeBaseService {
 
         } catch (error) {
             console.error('Error querying Bedrock Knowledge Base:', error);
+            console.error('KB Config:', { knowledgeBaseId: this.config.knowledgeBaseId, region: this.config.region });
+            if (error instanceof Error) {
+                console.error('Error name:', error.name, 'Message:', error.message);
+            }
             throw error;
         }
     }
