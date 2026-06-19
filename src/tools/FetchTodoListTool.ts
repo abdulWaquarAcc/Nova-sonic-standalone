@@ -21,10 +21,10 @@ export const FetchTodoListTool: Tool = {
     async execute(params: unknown, context?: ToolExecutionContext): Promise<object> {
         const { id: paramId } = (params as { id?: number }) || {};
         
-        // Use ID from UI input (customData) if available, otherwise use param or default to 1
+        // Use ID from UI input (customData) first, then model param, then default 1
         const todoId = (context?.customData?.todoId as number) || paramId || 1;
 
-        console.log(`Fetching todo item #${todoId}`);
+        console.log(`[FetchTodo] Using todoId=${todoId} (customData=${context?.customData?.todoId}, param=${paramId})`);
 
         const response = await fetch(`https://jsonplaceholder.typicode.com/todos/${todoId}`, {
             headers: { 'Accept': 'application/json' }

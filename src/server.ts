@@ -130,6 +130,12 @@ async function createNewSession(socket: any, config: any = {}): Promise<StreamSe
         socketConfigs.set(sessionId, config);
         sessionStates.set(sessionId, SessionState.READY);
 
+        // Inject any stored custom data (e.g., todoId from UI input)
+        const storedTodoId = socketTodoIds.get(sessionId);
+        if (storedTodoId) {
+            client.setSessionCustomData(sessionId, 'todoId', storedTodoId);
+        }
+
         console.log(`Session ${sessionId} created and ready`);
         return session;
     } catch (error) {
